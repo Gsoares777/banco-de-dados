@@ -1,0 +1,77 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Verdana', sans-serif;
+    line-height: 1.6;
+    background-color: #e0f7fa;
+    color: #00796b;
+    background-image: url(../Gabryel/imagem/banco-de-dados.png);
+}
+
+header {
+    background: #004d40;
+    color: #ffffff;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+    font-size: 2.5rem;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 1.5rem;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffeb3b;
+}
+
+main {
+    padding: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.indexacao {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    margin-bottom: 1.5rem;
+    padding: 1.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.indexacao:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.titulo_categoria {
+    color: #00796b;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+}
+
+.paragrafo_categoria {
+    color: #004d40;
+}
+
+footer {
+    background: #004d40;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2);
+}

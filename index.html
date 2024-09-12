@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Banco de dados</h1>
+        <nav>
+            <a href="">Indexação</a>
+            <a href="">B-Tree</a>
+            <a href="">Hash</a>
+            <a href="">BitMap</a>
+        </nav>
+    </header>
+    <main>
+        <div class="indexacao">
+            <h1 class="titulo_categoria">
+                Indexação
+            </h1>
+            <p class="paragrafo_categoria">
+                Indexação em bancos de dados é uma técnica para acelerar a busca e recuperação de dados. Ao criar um índice, o banco de dados constrói uma estrutura de dados adicional que facilita encontrar registros sem percorrer toda a tabela. Isso melhora a eficiência das consultas, especialmente em colunas frequentemente usadas. No entanto, índices podem aumentar o custo das operações de escrita, como inserções e atualizações, e usar mais espaço em disco. Índices comuns incluem árvores B e tabelas hash, e são criados em colunas-chave para otimizar o desempenho.
+            </p>
+        </div>
+        <div class="indexacao">
+            <h1 class="titulo_categoria">
+                B-Tree
+            </h1>
+            <p class="paragrafo_categoria">
+                A B-Tree é uma estrutura de dados balanceada que armazena valores em uma árvore com vários níveis. Cada nó da árvore contém múltiplos valores e ponteiros para outros nós. Isso permite buscas rápidas e eficientes, pois a pesquisa é feita navegando da raiz até as folhas em um tempo logarítmico. A B-Tree é ideal para consultas que envolvem intervalos e ordenação. No entanto, a manutenção do índice pode ser mais lenta durante inserções e deleções, devido ao balanceamento da árvore.
+            </p>
+        </div>
+        <div class="indexacao">
+            <h1 class="titulo_categoria">
+                Hash
+            </h1>
+            <p class="paragrafo_categoria">
+                O índice Hash utiliza uma função hash para mapear chaves para posições específicas em uma tabela. A função hash calcula um valor que determina onde os dados serão armazenados, permitindo acesso rápido e direto. Este tipo de índice é muito eficiente para buscas exatas, mas não é adequado para consultas que envolvem intervalos ou ordenação, e pode enfrentar problemas com colisões, onde diferentes chaves resultam no mesmo valor hash.
+            </p>
+        </div>
+        <div class="indexacao">
+            <h1 class="titulo_categoria">
+                Bitmap
+            </h1>
+            <p class="paragrafo_categoria">
+                O índice Bitmap utiliza bits para representar a presença de valores em uma coluna. Cada valor distinto na coluna tem seu próprio bitmap, e cada bit representa uma linha na tabela, indicando se o valor está presente naquela linha. É muito eficiente para colunas com poucos valores distintos e consultas que combinam várias condições. Contudo, pode consumir muito espaço em tabelas com muitos valores distintos e não é ideal para dados com alta cardinalidade.
+            </p>
+        </div>
+    </main>
+    <footer class="">
+        <p>Gabryel W.M.S De Almeida</p>
+    </footer>
+</body>
+</html>
